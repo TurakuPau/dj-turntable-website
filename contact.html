@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>DJ Turntable | Musical and Entertainment Services</title>
+  <meta charset="UTF-8" />
+  <meta name="description" content="DJ Turntable is a music business that creates rad beats for schools, colleges, weddings, and corporate events that require music for entertainment and dancing." />
+  <meta name="keywords" content="DJ, Disc Jockey, Music, Vinyl, Dylan Jackson, Dance, Fun, Entertainment Services, Funk, Dubstep, Wedding, Birthday, Special Event, Electronic, Gigs" />
+  <meta name="author" content="Tony Pau" />
+  <meta name="owner" content="Dylan Jackson" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="images/browser_icon.ico" rel="icon" />
+  
+  <script>
+    function thankYou() {
+      if (document.getElementById("userName").value == "" || document.getElementById("phoneNumber").value == "" || document.getElementById("email").value == "" || document.getElementById("eventName").value == "" || document.getElementById("eventDate").value == "") {
+        null;
+      }
+      
+      else {
+      alert("Your information has been submitted to DJ Turntable.");
+      }
+    }
+  </script>
+  
+</head>
+  
+
+<body>
+  <header>
+    <a href="index.html"><img src="images/logo.png" alt="DJ Turntable Logo" /></a>
+    <h1>Whatever The Gig, We Make It Big!</h1>
+    <br/>
+    <div id="header_contact_container">
+      <img class="phone_icon" src="images/phone_social_icon.png" alt="phone icon, contact us" /><h2>(888) 555-GIGS</h2>
+      <span id="social_icons_container">
+        <a href="#"><img class="social_icons" src="images/facebook_social_icon.png" alt="DJ Turntable Facebook page" /></a>
+        <a href="#"><img class="social_icons" src="images/twitter_social_icon.png" alt="DJ Turntable Twitter page" /></a>
+        <a href="#"><img class="social_icons" src="images/feed_social_icon.png" alt="RSS Feed, get the latest updates fast" /></a>
+      </span>
+    </div>
+
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="drop_down"><a href="about.html">&#9660; About</a>
+        <div class="drop_down_content">
+          <a href="story.html">My Story</a>
+        </div>
+      </li>
+      <li><a href="packages.html">Packages</a></li>
+      <li class="drop_down"><a href="events.html">&#9660; Events</a>
+        <div class="drop_down_content">
+          <a href="events-wedding.html">Weddings</a>
+          <a href="events-school.html">School Celebrations</a>
+          <a href="events-special.html">Special Occasions</a>
+          <a href="events-corporate.html">Corporate Events</a>
+        </div>
+      </li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h3>Call, Email, Tweet, Or Just Whistle!</h3>
+
+    <div id="table_container">
+      <table>
+        <tr>
+          <td colspan="2">DJ Turntable / 3026 North Ashland Avenue / Chicago, IL 60657</td>
+        </tr>
+
+        <tr>
+          <td>Website:</td>
+          <td><a href="index.html">www.djturntable.com</a></td>
+        </tr>
+
+        <tr>
+          <td>Phone:</td>
+          <td>(888) 555-GIGS</td>
+        </tr>
+
+        <tr>
+          <td>Fax:</td>
+          <td>(312) 555-GIGS</td>
+        </tr>
+
+        <tr>
+          <td>Email:</td>
+          <td><a href="mailto:dj@djturntable.com">dj@djturntable.com</a></td>
+        </tr>
+
+        <tr>
+          <td>Twitter:</td>
+          <td><a href="#">@DylanJacksonDJ</a></td>
+        </tr>
+
+        <tr>
+          <td>Facebook:</td>
+          <td><a href="#">www.facebook.com/dylan.jackson.168475</a></td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="form_container">
+      <form>
+        <label for="name">Name:</label><input type="text" name="name" placeholder="Your first and last name.." required id="userName" value="" />
+        <label for="phone">Phone:</label><input type="tel" name="phone" placeholder="Your phone number.." required id="phoneNumber" value="" />
+        <label for="email">Email:</label><input type="email" name="email" placeholder="Your email.." required id="email" value="" />
+        <label for="event">Event:</label><input type="text" name="event" placeholder="Event name.." required id="eventName" value="" />
+        <label for="date">Event Date:</label><input type="date" name="date" placeholder="Event date.." required id="eventDate" value="" />
+
+        <label></label><input type="submit" value="Submit" onclick="thankYou()" /><input type="reset" value="Reset" />
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <span id="footer_links">
+      <a href="about.html">about us</a>
+      <a href="legal.html">legal</a>
+      <a href="sitemap.html">site map</a>
+      <a href="contact.html">contact us</a>
+    </span>
+    <p>
+      <a href="#">Return to Top</a><br/><br/>
+
+      E-mail: <a href="mailto:dj@djturntable.com" class="email">dj@djturntable.com</a><br/>
+      Phone: (888) 555-GIGS<br/>
+      Fax: (312) 555-GIGS<br/><br/>
+
+      Mail: DJ Turntable<br/>3026 North Ashland Avenue<br/>Chicago, IL 60657<br/><br/>
+
+      &copy; 2017. DJ Turntable, Inc. All Rights Reserved.<br/>
+      Website design by Tony Pau
+    </p>
+  </footer>
+
+</body>
+
+</html>
